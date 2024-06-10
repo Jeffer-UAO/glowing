@@ -16,7 +16,7 @@ export function Redes() {
       if (window.scrollY >= scrollThreshold) {
         setIsVisible(true);
       } else {
-        setIsVisible(false);i
+        setIsVisible(false);
       }
     };
 
@@ -30,13 +30,12 @@ export function Redes() {
   return (
     <>
       <div className={styles.redes}>
-       
-        <p>VENTAS AL MAYOR Y DETAL</p>
+    
         <p>Dirección: San Andresito Sur piso 1 local 1-105</p>
         <p>Whatsapp: 310 7640196</p>
 
-        <Link href="/">
-        <p>Todas mis Redes: distribuidoraglowing.bio.link</p>
+        <Link href="https://distribuidoraglowing.bio.link/">
+        <p>Redes: distribuidoraglowing.bio.link</p>
         </Link>      
 
         
