@@ -1,6 +1,7 @@
 .listProduct {
  width: 100%;
- padding: 0.5rem;
+
+ padding: 1rem 1rem;
 
   h4 {
    background-color: white;
@@ -13,7 +14,7 @@
 
   .product {  
     display: grid;
-    gap: 0.5rem;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
 
   }

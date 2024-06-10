@@ -76,10 +76,10 @@ export function Available(props) {
       <div className={styles.product}>
         <div className={styles.price}>
           {product.productData.price2 > 0 && (
-            <label>Con descuento $ {format(product.productData.price2)}</label>
+            <label>Por Mayor $ {format(product.productData.price2)}</label>
           )}
           {product.productData.price1 > 0 && (
-            <label>Sin descuento $ {format(product.productData.price1)}</label>
+            <label>Por Menor $ {format(product.productData.price1)}</label>
           )}
         </div>
       </div>
