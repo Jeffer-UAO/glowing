@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Redes.module.scss";
-import { CardImg } from "reactstrap";
+import Link from "next/link";
 
 import { IoLogoWhatsapp } from "react-icons/io";
 import { GiRotaryPhone } from "react-icons/gi";
@@ -16,7 +16,7 @@ export function Redes() {
       if (window.scrollY >= scrollThreshold) {
         setIsVisible(true);
       } else {
-        setIsVisible(false);
+        setIsVisible(false);i
       }
     };
 
@@ -30,10 +30,16 @@ export function Redes() {
   return (
     <>
       <div className={styles.redes}>
-        <h4>CÁTALOGO 2024</h4>
+       
         <p>VENTAS AL MAYOR Y DETAL</p>
-        <p>Dirección</p>
-        <p>Whatsapp: </p>
+        <p>Dirección: San Andresito Sur piso 1 local 1-105</p>
+        <p>Whatsapp: 310 7640196</p>
+
+        <Link href="/">
+        <p>Todas mis Redes: distribuidoraglowing.bio.link</p>
+        </Link>      
+
+        
       </div>
       {/* 
       <div
