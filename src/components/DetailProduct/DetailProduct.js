@@ -112,7 +112,7 @@ export function DetailProduct(props) {
     }
   };
 
-  
+  console.log(gallery);
     
 
   if (product) {
@@ -120,6 +120,8 @@ export function DetailProduct(props) {
   
         <div className={styles.detailProduct}>
           <div className={styles.product} id="seccion-1">
+           
+           
             {size(gallery) > 0 ? (
               <ImageCarousel images={gallery} />
             ) : productData?.images ? (

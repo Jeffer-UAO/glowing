@@ -9,13 +9,15 @@ export function Contact() {
         <div className={styles.phone}>
           <h5>Líneas de atención</h5>
           <ul>
-            <li>(+57)</li>
+            <li>(+57) 310 7640196</li>
           </ul>
         </div>
 
         <div className={styles.adress}>
           <h5>Ubicación:</h5>
-          <p></p>
+          <p>
+          San Andresito Sur piso 1 local 1-105
+          </p>
         </div>
       </div>
       <FooterApp />

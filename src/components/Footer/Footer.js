@@ -50,7 +50,7 @@ export function Footer() {
       </div>
       <div>
         <p className={styles.copyright}>
-        GLOWING Copyright © 2024. Todos los derechos
+        DISTRIBUIDORA GLOWING Copyright © 2024. Todos los derechos
           reservados <br />
           Desarrollado por: Jeffer Quiñones <br />
           Cel: 300 530 9990

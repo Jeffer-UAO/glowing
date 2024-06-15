@@ -12,14 +12,9 @@ export default function FeaturedPage(props) {
 
   return (
     <>   
-        {hasProduct ? (
+      
           <SearchTable products={products} />
-        ) : (
-          <NotFound
-            title={"No se encontraron productos"}
-          />
-        )}
-        <FooterApp />    
+      <FooterApp/>
     </>
   );
 }
