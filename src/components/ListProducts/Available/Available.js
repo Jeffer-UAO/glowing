@@ -75,9 +75,9 @@ export function Available(props) {
       <h5>{product.productData.name_extend}</h5>
       <div className={styles.product}>
         <div className={styles.price}>
-          {product.productData.price2 > 0 && (
+          {/* {product.productData.price2 > 0 && (
             <label>Por Mayor $ {format(product.productData.price2)}</label>
-          )}
+          )} */}
           {product.productData.price1 > 0 && (
             <label>Por Menor $ {format(product.productData.price1)}</label>
           )}
