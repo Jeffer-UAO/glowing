@@ -112,9 +112,7 @@ export function DetailProduct(props) {
     }
   };
 
-  console.log(gallery);
-    
-
+ 
   if (product) {
     return (
   
